@@ -1,0 +1,177 @@
+.kurs{
+    display: flex;
+    align-items: center;
+    color:#667eea;
+}
+.content{
+    margin-top: 150px;
+    border-radius: 20px;
+    padding: 20px 30px 50px 30px;
+    background: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    margin-left: 700px;
+    align-items: center;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15pt;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    width: 98%;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px 3px;
+}
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.re{
+    align-items: center;
+    margin-top: 50px;
+}
+select{
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15pt;
+    width: 100%;
+    height: 45px;
+}
+.lang{
+    margin-top: 1px;
+}
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(135deg, #5a6fd8, #6a42a0);
+}
+h1{
+    margin: 10px 0px 35px 0;
+}
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+option{
+    border-radius: 10px;
+    background-color: white;
+}
+.inf{
+    margin-top: 120px;
+    flex: 1;
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+.Python{
+    margin-left: 400px;
+    width: 50%;
+    border-radius: 15px;
+    padding: 50px;
+    background-color: white;
+    transition: transform 0.3s ease;
+    border-left: 5px solid #08ff31;
+}
+.Python:hover{
+    transform: translateY(-5px);
+}
+.JavaScript{
+    margin-top: 10px;
+    margin-left: 400px;
+    width: 50%;
+    border-radius: 15px;
+    border-left: 5px solid #fffb00;
+    padding: 50px;
+    background-color: white; 
+    transition: transform 0.3s ease;
+}
+.JavaScript:hover{
+    transform: translateY(-5px);
+}
+.inf ul {
+    margin-left: 0;
+}
+.inf li {
+    margin-left: 20px;
+    margin-bottom: 0.8rem;
+    font-size: 15pt;
+    color: #555;
+}
+.opisanie{
+    font-size: 15pt;
+    margin-left: 40px;
+}
+.language{
+    margin-top: 0;
+    color:#667eea;
+    margin-left: 40px;
+}
+strong{
+    color:#052cecc5;
+}
+hr{
+    margin-bottom: 20px;
+    color: #052cecc5;
+}
+.rating-container{
+    margin-top: 150px;
+    padding: 50px;
+    font-size: 15pt;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reit{
+    margin-left: 20px;
+    text-align: center;
+    color:#667eea;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    padding: 15px 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+.shape {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    border-radius: 15px;
+}
+header ul {
+    font-size: 15pt;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+header ul li a {
+    text-decoration: none;
+    color: #667eea;
+    padding: 10px 20px;
+}
+header ul li a:hover {
+    color:#0380fd;
+}
